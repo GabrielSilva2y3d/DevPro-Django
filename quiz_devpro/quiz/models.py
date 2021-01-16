@@ -12,3 +12,9 @@ class Pergunta(models.Model):
         (2, 'C'),
         (3, 'D'), 
     ])
+
+class Alunos(models.Model):
+    nome = models.CharField(max_length=64)
+    email = models.EmailField(unique=True)
+    criacao = models.DateField(auto_now_add=True)
+    

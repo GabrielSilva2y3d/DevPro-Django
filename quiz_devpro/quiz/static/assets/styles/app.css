@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,600,900);
 
+.erro {
+    font-size: large;
+    color: red;
+}
+
 :root{
     background-color: #1D2241;
     height: -webkit-fill-available;
