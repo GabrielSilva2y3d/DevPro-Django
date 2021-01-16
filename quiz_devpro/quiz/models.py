@@ -12,5 +12,3 @@ class Pergunta(models.Model):
         (2, 'C'),
         (3, 'D'), 
     ])
-
-
